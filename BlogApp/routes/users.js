@@ -45,11 +45,16 @@ router.post('/register',function(req,res){
     console.log("Name : "+name);
 });
 
-/*router.post('/login',function(req,res){
+router.post('/login',function(req,res){
     var email = req.body.email;
     var password = req.body.password;
     console.log("Email : "+email);
+
+    // validation
+    req.checkBody('email','Email is required').notEmpty();
+    req.checkBody('email','Enter valid email').isEmail();
+    
     res.render('index');
-});*/
+});
 
 module.exports = router;
