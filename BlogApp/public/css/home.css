@@ -1,0 +1,93 @@
+#title:hover {
+  color: #1e2cc4;
+  background-color: inherit;
+}
+.navbarItem:hover {
+  color: #e84c3d !important;
+  background-color: inherit;
+}
+#navbarLogout{
+  margin-left: 850px;
+}
+#navbarLogoutLink:hover{
+  color: #1a78c2 !important;
+  background-color: inherit;
+}
+#loadContent{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.4);
+  background-image: url("../images/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+}
+.articleOne {
+  width: 80%;
+  background-color: rgba(16, 24, 33,0.8);
+  color: #f2fff3;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+}
+#errorMessage{
+  color: #ff0000;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px; 
+}
+#loginform{
+  background-color: rgba(16, 24, 33,0.8);
+  color: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+  box-shadow: 2px 2px rgba(61, 61, 61,0.1);
+}
+.label{
+  font-size: 40px;
+  color: #f2fff3;
+  background-color: inherit;
+}
+#loginButton{
+  width: 100%;
+  text-align: center;
+  background-color:inherit;
+  color: #f2fff3;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 0px;
+  border-color: #da4d59;
+}
+#loginButton:hover{
+  background-color:#da4d59;
+  color: #f2fff3;
+}
+
+footer{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 40px;
+  width: 100%;
+  height: 120px;
+  background-color: #343a40;
+  color: #f2fff3;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
