@@ -1,8 +1,7 @@
 <div id="loginform">
   {{#if errors}}
     {{#each errors}}
-      <div class="notice error" id="errorMessage"><i class="icon-remove-sign icon-large"></i> {{msg}}
-      <a href="#close" class="icon-remove"></a></div>
+      <div class="alert alert-danger">{{msg}}</div>
     {{/each}}
   {{/if}}  
   <form method="POST" action="/users/register">

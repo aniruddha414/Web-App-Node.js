@@ -7,11 +7,19 @@
   background-color: inherit;
 }
 #navbarLogout{
-  margin-left: 850px;
+  margin-left: 950px;
 }
 #navbarLogoutLink:hover{
   color: #1a78c2 !important;
   background-color: inherit;
+}
+.message{
+  width: 30%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 #loadContent{
   margin-top: 20px;
